@@ -30,7 +30,6 @@ router.get("/products/:id", async (req, res) => {
 // POST - add single product
 
 router.post("/addproducts", async (req, res) => {
-  console.log(`Add Product API created`);
   const body = req.body;
   console.log(body);
 
